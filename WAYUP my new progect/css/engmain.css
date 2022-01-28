@@ -1,0 +1,255 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+div, p, a, input, form, button, ul, li, span {
+     box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 1.6m;
+}
+
+.conteiner {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgb(72,62,95);
+    background: linear-gradient(90deg, rgba(72,62,95,1) 0%, rgba(42,34,64,1) 100%, rgba(0,0,0,1) 100%);
+    padding-top: 100px;
+    color: #fff;
+    padding-bottom: 225px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    margin-top: 176px;
+    width: 490px;
+}
+
+.title {
+    font-size: 36px;
+}
+
+.title span {
+    color: #48ed8e;
+}
+
+.intro {
+    margin-bottom: 37px;
+    margin-top: 30px;
+    width: 380px;
+}
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    background: #ed9619;
+    color: #fff;
+    border-radius: 100px;
+    display: block;
+    width: 205px;
+    padding: 19px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background: #bc7817 ;
+  color: #fff;
+
+}
+
+.desktop {
+    margin-top: 72px;
+}
+
+.learn {
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+
+.section-title {
+    font-size: 30px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+
+.skill {
+    width: 350px;
+    background: url('../img/icon1.jpg') no-repeat left top;
+    padding-left: 100px;
+}
+
+.skill-title {    
+    font-size: 18px;
+}
+
+.skill-text {
+    margin-top: 7px;
+}
+
+.skill-free {
+    width: 375px;
+    background: url('../img/icon2.jpg') no-repeat left top;
+}
+
+.skill-life {
+    background: url('../img/icon3.jpg') no-repeat left top;
+}
+
+.mail {
+   background:  #efecf4;
+   padding-top: 170px;
+   padding-bottom: 190px;
+}
+
+.form {
+    margin-top: 50px;
+}
+
+.input {
+    width: 473px;
+    border: 1px solid #bfb8d1;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 100px;
+    height: 54px;
+    padding-left: 38px;
+}
+
+.btn-form {
+    border: 0;
+    cursor: pointer;
+    display: inline;
+    margin-left: 11px;
+}
+
+.footer {
+    background: #201b2d;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+.credits {
+    color: #d4cee3;
+    font-size: 14px;
+}
+
+
+/* Responsive */
+
+/* 1200px - 1440px */
+@media screen and (max-width: 1440px) {
+    .conteiner {
+        width: 1140px;
+    }
+}
+
+/* 992px-1200px */
+@media screen and (max-width: 1200px) {
+    .conteiner {
+        width: 960px;
+    }
+}
+
+/* 768pz - 992px */
+@media screen and (max-width: 992px) {
+    .conteiner {
+        width: 720px;
+    }
+    .wrapper {
+        flex-direction: column;
+    }
+    .offer {
+        width: 100%;
+    }
+    .intro {
+        width: 100%;
+    }
+    .desktop {
+        display: block;
+        width: 549px;
+        margin: 72px auto 0;
+    }
+    .skills {
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill {
+        margin-bottom: 30px;
+    }
+    .section-title {
+        text-align: center;
+    }
+}
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    .conteiner {
+        width: 540px;
+    }
+    .desktop {
+        width: 100%;
+    }
+    .logo {
+        margin-left: 220px;
+    }
+    .title {
+        text-align: center;
+    }
+    .intro {
+        text-align: center;
+    }
+    .btn {
+        width: 100%;
+    }
+    .input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .credits {
+        text-align: center;
+    }
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+    .conteiner {
+        width: 90%;
+    }
+    .btn {
+        width: 90%;
+    }
+    .skill {
+        width: 300px;
+        background-position: top;
+        padding-top: 80px;
+    }
+    .skill-text {
+        text-align: center;
+    }
+    .logo {
+        margin-left: 100px;
+    }
+}
